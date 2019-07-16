@@ -1,0 +1,28 @@
+{
+    "gpus": {
+        "nvidia/gtx1060": false,
+        "nvidia/gtx1050ti": false,
+        "nvidia/gtx1070": true,
+        "nvidia/gtx1070ti": true,
+        "nvidia/gtx1080": false,
+        "nvidia/gtx1080ti": true,
+        "nvidia/quadro": false,
+        "nvidia/titanv": false,
+
+        "amd/rx470": false,
+        "amd/rx480": false,
+        "amd/rx560": false,
+        "amd/rx570": false,
+        "amd/rx580": false,
+        "amd/rxvega56": false,
+        "amd/rxvega64": false
+    },
+    "sound_file": "alarm.wav",
+    "check_interval_sec": 10,
+    "gc_interval_sec": 30,
+    "gc_expire_sec": 420,
+    "counter": {
+        "file": "counter.json",
+        "num_counts_before_flush": 2
+    }
+}
